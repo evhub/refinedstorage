@@ -99,7 +99,8 @@ public class CraftingPattern implements ICraftingPattern {
 
         ItemStack result = recipe.assemble(craftingContainer, registryAccess);
         if (result.isEmpty()) {
-            throw new IllegalStateException("Cannot have empty result");
+            // throw new IllegalStateException("Cannot have empty result");
+            return ItemStack.EMPTY;
         }
 
         return result;

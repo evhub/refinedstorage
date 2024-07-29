@@ -4,7 +4,7 @@ issueTrackerURL = "https://github.com/refinedmods/refinedstorage"
 license="MIT"
 [[mods]]
 modId = "refinedstorage"
-version = "${version}"
+version = "1.12.4"
 displayName = "Refined Storage"
 displayURL = "https://refinedmods.com/refined-storage"
 logoFile = "logo.png"
